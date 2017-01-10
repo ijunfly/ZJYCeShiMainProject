@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E24B1A57847A2F282E36B74A03050F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		15CF195D26BCCC4D9D3C757CC990BE60 /* ZJYCeShiConfirmOrderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 589F4DCE78849C1BC032C4FFD4C215C9 /* ZJYCeShiConfirmOrderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D896EBC98F9D9FC53E441662A631DB9 /* ZJYCeShiDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FEA4B0036D474D86D2998690DD6D4 /* ZJYCeShiDetailServiceProvide.m */; };
+		32DAF8D0EAC1FA02259284AB72DAAEC5 /* ZJYCeShiProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C3BA7ABE4DFD79528E96EBCA43669E /* ZJYCeShiProtocolManager.m */; };
+		42902F0B2DD1BA45CC8125415982B8F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		4603B9C3FAB417B72670C4AFB883043D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		5D390F1768CDC7C0B053AAF99D2AFBA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		5D9FED6A5FB2707A42C43C3C01743E42 /* ZJYCeShiDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6DDBBE2167FDEFDF473A5FFF619DF /* ZJYCeShiDetail-dummy.m */; };
+		6C4BD7CFFC421B6A3B03CD2521AE2E2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		8EFE34DDD4CCE28B086E24E443ECC33F /* ZJYCeShiDetailServiceProvide.h in Headers */ = {isa = PBXBuildFile; fileRef = D79671F71D304FA729A23F61FE94891F /* ZJYCeShiDetailServiceProvide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		903345CE7922542AF72EA044C8DF0805 /* ZJYCeShiDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9248E0EFA01438EE47A0F1C817AB626 /* ZJYCeShiDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9337B375DE36988D09DF0479606CC910 /* ZJYCeShiConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EA8DF6A6631DFD123162CBBD2A7C2A /* ZJYCeShiConfirmOrderViewController.m */; };
+		98EE69B36DA582A6E5F7D088AE466F9E /* Pods-ZJYCeShiMainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD9451E391502B3CB0D1E5EA848BB57 /* Pods-ZJYCeShiMainProject-dummy.m */; };
+		AE35AA16319142609601B3E656DBCD2C /* ZJYCeShiDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F1196D6764219BFAB776300ABC4EA2 /* ZJYCeShiDetailViewController.m */; };
+		BB3D4942627173670EB5762BF08305F1 /* ZJYCeShiProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D7D7EE08059BDDD4E4608128A4518 /* ZJYCeShiProtocolManager-dummy.m */; };
+		C200951AB21A1C4DA298DD98250B9C06 /* ZJYCeShiConfirmOrderServiceProvide.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA52F11E3B72476CE3ABA4F193BB882 /* ZJYCeShiConfirmOrderServiceProvide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE97A6D798E7EA22047D47DBF3A24C6B /* ZJYCeShiConfirmOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8970D74833024F25F8AB9F7F54E7FBF7 /* ZJYCeShiConfirmOrder-dummy.m */; };
+		E2A6312B6AE5AE6831E6E9A2BCF66691 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		F3D50E66E69F0666CEBEB9F108021A91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		FC1C6DE4C7F934C3B8A94490DB048A95 /* ZJYCeShiConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B456C24B529CD5076D997A6175BAF45 /* ZJYCeShiConfirmOrderServiceProvide.m */; };
+		FD4043ED648F9D63AD5E65B10484EC43 /* ZJYCeShiProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1016D49C3282BC89F664EAC01F7D4489 /* ZJYCeShiProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3506B20DE25C7BBF588EE8D22E38BA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6850918B9C3BFF6C26830586844DB2B;
+			remoteInfo = ZJYCeShiProtocolManager;
+		};
+		5D3AB420D5C538E906D593D1B923C166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6850918B9C3BFF6C26830586844DB2B;
+			remoteInfo = ZJYCeShiProtocolManager;
+		};
+		B89B874752B05D973077F531A61254FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6850918B9C3BFF6C26830586844DB2B;
+			remoteInfo = ZJYCeShiProtocolManager;
+		};
+		D5AE8725E0E3D4D9EBB60C825AAB228F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA63F7F30559635E93056D0CDDCA8DC;
+			remoteInfo = ZJYCeShiConfirmOrder;
+		};
+		FEFAA5BB4E15D0601DF4BE5FFA14378F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D357C284EE78527FDA12599FC6FF4A51;
+			remoteInfo = ZJYCeShiDetail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA52F11E3B72476CE3ABA4F193BB882 /* ZJYCeShiConfirmOrderServiceProvide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiConfirmOrderServiceProvide.h; path = ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrderServiceProvide.h; sourceTree = "<group>"; };
+		0E87C56DFD32BFC76E2AC97FBFFF4517 /* ZJYCeShiProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJYCeShiProtocolManager-prefix.pch"; sourceTree = "<group>"; };
+		1016D49C3282BC89F664EAC01F7D4489 /* ZJYCeShiProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiProtocolManager.h; path = ZJYCeShiProtocolManager/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.h; sourceTree = "<group>"; };
+		1E1FEA4B0036D474D86D2998690DD6D4 /* ZJYCeShiDetailServiceProvide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJYCeShiDetailServiceProvide.m; path = ZJYCeShiDetail/ZJYCeShiDetail/ZJYCeShiDetailServiceProvide.m; sourceTree = "<group>"; };
+		1EF6DDBBE2167FDEFDF473A5FFF619DF /* ZJYCeShiDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJYCeShiDetail-dummy.m"; sourceTree = "<group>"; };
+		240BAAFF62A54B847064B718CAA3446C /* Pods-ZJYCeShiMainProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJYCeShiMainProject-resources.sh"; sourceTree = "<group>"; };
+		3236BA6DF72BC9D9C6A34E58DF545DD0 /* ZJYCeShiConfirmOrder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJYCeShiConfirmOrder.xcconfig; sourceTree = "<group>"; };
+		3EDF5EDBC64895312A1BB2C379BFF485 /* Pods-ZJYCeShiMainProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJYCeShiMainProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		48F1196D6764219BFAB776300ABC4EA2 /* ZJYCeShiDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJYCeShiDetailViewController.m; path = ZJYCeShiDetail/ZJYCeShiDetail/ZJYCeShiDetailViewController.m; sourceTree = "<group>"; };
+		54EA8DF6A6631DFD123162CBBD2A7C2A /* ZJYCeShiConfirmOrderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJYCeShiConfirmOrderViewController.m; path = ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrderViewController.m; sourceTree = "<group>"; };
+		554AB547B1C2A42E02C5A87CB7D9537A /* Pods-ZJYCeShiMainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJYCeShiMainProject.release.xcconfig"; sourceTree = "<group>"; };
+		56D0371862B420C1EEE94358D2FEEEAC /* Pods-ZJYCeShiMainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJYCeShiMainProject.debug.xcconfig"; sourceTree = "<group>"; };
+		589F4DCE78849C1BC032C4FFD4C215C9 /* ZJYCeShiConfirmOrderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiConfirmOrderViewController.h; path = ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrderViewController.h; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B456C24B529CD5076D997A6175BAF45 /* ZJYCeShiConfirmOrderServiceProvide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJYCeShiConfirmOrderServiceProvide.m; path = ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrderServiceProvide.m; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F8E890CCB8123439BE5B54FE83558DB /* Pods-ZJYCeShiMainProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJYCeShiMainProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85369BE2F782E582BE24D512367D7D18 /* ZJYCeShiConfirmOrder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJYCeShiConfirmOrder-prefix.pch"; sourceTree = "<group>"; };
+		8970D74833024F25F8AB9F7F54E7FBF7 /* ZJYCeShiConfirmOrder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJYCeShiConfirmOrder-dummy.m"; sourceTree = "<group>"; };
+		8EB499BF99C184C58BFDC9A96DD2D3B6 /* libZJYCeShiDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZJYCeShiDetail.a; path = libZJYCeShiDetail.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F94B84816F29DFDA246C1F628E9F2C8 /* ZJYCeShiDetail.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJYCeShiDetail.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CD9451E391502B3CB0D1E5EA848BB57 /* Pods-ZJYCeShiMainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJYCeShiMainProject-dummy.m"; sourceTree = "<group>"; };
+		A8778311D272802EF8A8BDE38337E7FF /* libPods-ZJYCeShiMainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZJYCeShiMainProject.a"; path = "libPods-ZJYCeShiMainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9248E0EFA01438EE47A0F1C817AB626 /* ZJYCeShiDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiDetailViewController.h; path = ZJYCeShiDetail/ZJYCeShiDetail/ZJYCeShiDetailViewController.h; sourceTree = "<group>"; };
+		A94D7D7EE08059BDDD4E4608128A4518 /* ZJYCeShiProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJYCeShiProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		C5E83B9B93B4DA9BB448D5D7E6553EEB /* ZJYCeShiDetail-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJYCeShiDetail-prefix.pch"; sourceTree = "<group>"; };
+		CF63B5728C27B40674EE39908B5D4A22 /* ZJYCeShiConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiConfirmOrderServiceProtocol.h; path = ZJYCeShiConfirmOrderServiceProtocol/ZJYCeShiConfirmOrderServiceProtocol/ZJYCeShiConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
+		D79671F71D304FA729A23F61FE94891F /* ZJYCeShiDetailServiceProvide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiDetailServiceProvide.h; path = ZJYCeShiDetail/ZJYCeShiDetail/ZJYCeShiDetailServiceProvide.h; sourceTree = "<group>"; };
+		DB277A5F1135870E264E231BB3C40A5D /* libZJYCeShiConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZJYCeShiConfirmOrder.a; path = libZJYCeShiConfirmOrder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BD7A84BCF750D6342A557E545F43C6 /* ZJYCeShiDetailServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiDetailServiceProtocol.h; path = ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol.h; sourceTree = "<group>"; };
+		E7ADA9A9645793246B2B0AF4385B1A3F /* Pods-ZJYCeShiMainProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJYCeShiMainProject-frameworks.sh"; sourceTree = "<group>"; };
+		E8C9A218A9A8D6943FB006118903916B /* libZJYCeShiProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZJYCeShiProtocolManager.a; path = libZJYCeShiProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0284B2A898C2297EEDA68717D4193F1 /* ZJYCeShiProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJYCeShiProtocolManager.xcconfig; sourceTree = "<group>"; };
+		F8C3BA7ABE4DFD79528E96EBCA43669E /* ZJYCeShiProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJYCeShiProtocolManager.m; path = ZJYCeShiProtocolManager/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2337972549ED9CDF095802F8D0CD8579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E24B1A57847A2F282E36B74A03050F /* Foundation.framework in Frameworks */,
+				5D390F1768CDC7C0B053AAF99D2AFBA2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90933D5E9770181D8EE48186314051F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42902F0B2DD1BA45CC8125415982B8F9 /* Foundation.framework in Frameworks */,
+				6C4BD7CFFC421B6A3B03CD2521AE2E2C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D4C88286B8A153E4F97ED57F1C9930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4603B9C3FAB417B72670C4AFB883043D /* Foundation.framework in Frameworks */,
+				E2A6312B6AE5AE6831E6E9A2BCF66691 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABF01CA8F534227805D7891822C3068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D50E66E69F0666CEBEB9F108021A91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C9DD35DB1CF69448DAF12C0CCC534A3 /* ZJYCeShiDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D79671F71D304FA729A23F61FE94891F /* ZJYCeShiDetailServiceProvide.h */,
+				1E1FEA4B0036D474D86D2998690DD6D4 /* ZJYCeShiDetailServiceProvide.m */,
+				A9248E0EFA01438EE47A0F1C817AB626 /* ZJYCeShiDetailViewController.h */,
+				48F1196D6764219BFAB776300ABC4EA2 /* ZJYCeShiDetailViewController.m */,
+				8CE797BBAA596399E68FB4207EEF124F /* Support Files */,
+			);
+			name = ZJYCeShiDetail;
+			path = ZJYCeShiDetail;
+			sourceTree = "<group>";
+		};
+		362511357B05E061D69666B01045C9E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0284B2A898C2297EEDA68717D4193F1 /* ZJYCeShiProtocolManager.xcconfig */,
+				A94D7D7EE08059BDDD4E4608128A4518 /* ZJYCeShiProtocolManager-dummy.m */,
+				0E87C56DFD32BFC76E2AC97FBFFF4517 /* ZJYCeShiProtocolManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZJYCeShiProtocolManager";
+			sourceTree = "<group>";
+		};
+		3854E4ACD604C1F1CD80AC5B8424F08F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1AF21A0193B9FE0A6C41853429F5470 /* Pods-ZJYCeShiMainProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3B0ECD43C4936D6755FED937C81A580D /* ZJYCeShiProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				1016D49C3282BC89F664EAC01F7D4489 /* ZJYCeShiProtocolManager.h */,
+				F8C3BA7ABE4DFD79528E96EBCA43669E /* ZJYCeShiProtocolManager.m */,
+				362511357B05E061D69666B01045C9E1 /* Support Files */,
+			);
+			name = ZJYCeShiProtocolManager;
+			path = ZJYCeShiProtocolManager;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5263AA5D565027CD3071009D06D63393 /* ZJYCeShiConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				CF63B5728C27B40674EE39908B5D4A22 /* ZJYCeShiConfirmOrderServiceProtocol.h */,
+			);
+			name = ZJYCeShiConfirmOrderServiceProtocol;
+			path = ZJYCeShiConfirmOrderServiceProtocol;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				94DD939B432A957FFF957F9DFF6584AF /* Pods */,
+				BE3359BC08640F5EED758EFBA5D3A485 /* Products */,
+				3854E4ACD604C1F1CD80AC5B8424F08F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84F2ACDE0613FEEF767B819005CF441E /* ZJYCeShiDetailServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				E3BD7A84BCF750D6342A557E545F43C6 /* ZJYCeShiDetailServiceProtocol.h */,
+			);
+			name = ZJYCeShiDetailServiceProtocol;
+			path = ZJYCeShiDetailServiceProtocol;
+			sourceTree = "<group>";
+		};
+		8CE797BBAA596399E68FB4207EEF124F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F94B84816F29DFDA246C1F628E9F2C8 /* ZJYCeShiDetail.xcconfig */,
+				1EF6DDBBE2167FDEFDF473A5FFF619DF /* ZJYCeShiDetail-dummy.m */,
+				C5E83B9B93B4DA9BB448D5D7E6553EEB /* ZJYCeShiDetail-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZJYCeShiDetail";
+			sourceTree = "<group>";
+		};
+		94DD939B432A957FFF957F9DFF6584AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F01AD40824FBC9693F90C34624D56E7F /* ZJYCeShiConfirmOrder */,
+				5263AA5D565027CD3071009D06D63393 /* ZJYCeShiConfirmOrderServiceProtocol */,
+				1C9DD35DB1CF69448DAF12C0CCC534A3 /* ZJYCeShiDetail */,
+				84F2ACDE0613FEEF767B819005CF441E /* ZJYCeShiDetailServiceProtocol */,
+				3B0ECD43C4936D6755FED937C81A580D /* ZJYCeShiProtocolManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2CDD5C7385636D8561C64AD3F33141A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3236BA6DF72BC9D9C6A34E58DF545DD0 /* ZJYCeShiConfirmOrder.xcconfig */,
+				8970D74833024F25F8AB9F7F54E7FBF7 /* ZJYCeShiConfirmOrder-dummy.m */,
+				85369BE2F782E582BE24D512367D7D18 /* ZJYCeShiConfirmOrder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZJYCeShiConfirmOrder";
+			sourceTree = "<group>";
+		};
+		BE3359BC08640F5EED758EFBA5D3A485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8778311D272802EF8A8BDE38337E7FF /* libPods-ZJYCeShiMainProject.a */,
+				DB277A5F1135870E264E231BB3C40A5D /* libZJYCeShiConfirmOrder.a */,
+				8EB499BF99C184C58BFDC9A96DD2D3B6 /* libZJYCeShiDetail.a */,
+				E8C9A218A9A8D6943FB006118903916B /* libZJYCeShiProtocolManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1AF21A0193B9FE0A6C41853429F5470 /* Pods-ZJYCeShiMainProject */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E890CCB8123439BE5B54FE83558DB /* Pods-ZJYCeShiMainProject-acknowledgements.markdown */,
+				3EDF5EDBC64895312A1BB2C379BFF485 /* Pods-ZJYCeShiMainProject-acknowledgements.plist */,
+				9CD9451E391502B3CB0D1E5EA848BB57 /* Pods-ZJYCeShiMainProject-dummy.m */,
+				E7ADA9A9645793246B2B0AF4385B1A3F /* Pods-ZJYCeShiMainProject-frameworks.sh */,
+				240BAAFF62A54B847064B718CAA3446C /* Pods-ZJYCeShiMainProject-resources.sh */,
+				56D0371862B420C1EEE94358D2FEEEAC /* Pods-ZJYCeShiMainProject.debug.xcconfig */,
+				554AB547B1C2A42E02C5A87CB7D9537A /* Pods-ZJYCeShiMainProject.release.xcconfig */,
+			);
+			name = "Pods-ZJYCeShiMainProject";
+			path = "Target Support Files/Pods-ZJYCeShiMainProject";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F01AD40824FBC9693F90C34624D56E7F /* ZJYCeShiConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				0DA52F11E3B72476CE3ABA4F193BB882 /* ZJYCeShiConfirmOrderServiceProvide.h */,
+				6B456C24B529CD5076D997A6175BAF45 /* ZJYCeShiConfirmOrderServiceProvide.m */,
+				589F4DCE78849C1BC032C4FFD4C215C9 /* ZJYCeShiConfirmOrderViewController.h */,
+				54EA8DF6A6631DFD123162CBBD2A7C2A /* ZJYCeShiConfirmOrderViewController.m */,
+				A2CDD5C7385636D8561C64AD3F33141A /* Support Files */,
+			);
+			name = ZJYCeShiConfirmOrder;
+			path = ZJYCeShiConfirmOrder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		185868F7D93105CE7CDE912F88108CF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C200951AB21A1C4DA298DD98250B9C06 /* ZJYCeShiConfirmOrderServiceProvide.h in Headers */,
+				15CF195D26BCCC4D9D3C757CC990BE60 /* ZJYCeShiConfirmOrderViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995EDF163E987479109EA959027FDF98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4043ED648F9D63AD5E65B10484EC43 /* ZJYCeShiProtocolManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E23BD508B6DAC1356F0963F760D802 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFE34DDD4CCE28B086E24E443ECC33F /* ZJYCeShiDetailServiceProvide.h in Headers */,
+				903345CE7922542AF72EA044C8DF0805 /* ZJYCeShiDetailViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9EE0E3E48F83EC94D040F08BC42F2EF6 /* Pods-ZJYCeShiMainProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4890F78D5AB4B2E501D137E645704363 /* Build configuration list for PBXNativeTarget "Pods-ZJYCeShiMainProject" */;
+			buildPhases = (
+				8A392152C8A79D795AB35270AAEDD8EF /* Sources */,
+				EABF01CA8F534227805D7891822C3068 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09D40420634C2DBF62B52FB455882495 /* PBXTargetDependency */,
+				49AE065CF69B4CF2B8021A45FEAE7DBB /* PBXTargetDependency */,
+				6CC8CBFF54AD9458B6736C15810821F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZJYCeShiMainProject";
+			productName = "Pods-ZJYCeShiMainProject";
+			productReference = A8778311D272802EF8A8BDE38337E7FF /* libPods-ZJYCeShiMainProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ABA63F7F30559635E93056D0CDDCA8DC /* ZJYCeShiConfirmOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C4A5ED5B6FD7941D7FCF742760D628 /* Build configuration list for PBXNativeTarget "ZJYCeShiConfirmOrder" */;
+			buildPhases = (
+				094FD874FC32E61D3E13D632DAE0B4D5 /* Sources */,
+				B9D4C88286B8A153E4F97ED57F1C9930 /* Frameworks */,
+				185868F7D93105CE7CDE912F88108CF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E73D040777E71E62C305BB156D77DF6 /* PBXTargetDependency */,
+			);
+			name = ZJYCeShiConfirmOrder;
+			productName = ZJYCeShiConfirmOrder;
+			productReference = DB277A5F1135870E264E231BB3C40A5D /* libZJYCeShiConfirmOrder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6850918B9C3BFF6C26830586844DB2B /* ZJYCeShiProtocolManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7F307A33F6E9A9993B7CD80BE0795B /* Build configuration list for PBXNativeTarget "ZJYCeShiProtocolManager" */;
+			buildPhases = (
+				3B2913D429B41902252D80F71B6EF1B6 /* Sources */,
+				2337972549ED9CDF095802F8D0CD8579 /* Frameworks */,
+				995EDF163E987479109EA959027FDF98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJYCeShiProtocolManager;
+			productName = ZJYCeShiProtocolManager;
+			productReference = E8C9A218A9A8D6943FB006118903916B /* libZJYCeShiProtocolManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D357C284EE78527FDA12599FC6FF4A51 /* ZJYCeShiDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED04AAEFD07583F3AA602AD8A4F908E /* Build configuration list for PBXNativeTarget "ZJYCeShiDetail" */;
+			buildPhases = (
+				3B1CB163C2719C1DAD3761652BE5C586 /* Sources */,
+				B90933D5E9770181D8EE48186314051F /* Frameworks */,
+				D1E23BD508B6DAC1356F0963F760D802 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31347CFAE4514CC2ECFD5C70572A0B1D /* PBXTargetDependency */,
+			);
+			name = ZJYCeShiDetail;
+			productName = ZJYCeShiDetail;
+			productReference = 8EB499BF99C184C58BFDC9A96DD2D3B6 /* libZJYCeShiDetail.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BE3359BC08640F5EED758EFBA5D3A485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EE0E3E48F83EC94D040F08BC42F2EF6 /* Pods-ZJYCeShiMainProject */,
+				ABA63F7F30559635E93056D0CDDCA8DC /* ZJYCeShiConfirmOrder */,
+				D357C284EE78527FDA12599FC6FF4A51 /* ZJYCeShiDetail */,
+				B6850918B9C3BFF6C26830586844DB2B /* ZJYCeShiProtocolManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094FD874FC32E61D3E13D632DAE0B4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE97A6D798E7EA22047D47DBF3A24C6B /* ZJYCeShiConfirmOrder-dummy.m in Sources */,
+				FC1C6DE4C7F934C3B8A94490DB048A95 /* ZJYCeShiConfirmOrderServiceProvide.m in Sources */,
+				9337B375DE36988D09DF0479606CC910 /* ZJYCeShiConfirmOrderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1CB163C2719C1DAD3761652BE5C586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9FED6A5FB2707A42C43C3C01743E42 /* ZJYCeShiDetail-dummy.m in Sources */,
+				1D896EBC98F9D9FC53E441662A631DB9 /* ZJYCeShiDetailServiceProvide.m in Sources */,
+				AE35AA16319142609601B3E656DBCD2C /* ZJYCeShiDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2913D429B41902252D80F71B6EF1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3D4942627173670EB5762BF08305F1 /* ZJYCeShiProtocolManager-dummy.m in Sources */,
+				32DAF8D0EAC1FA02259284AB72DAAEC5 /* ZJYCeShiProtocolManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A392152C8A79D795AB35270AAEDD8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE69B36DA582A6E5F7D088AE466F9E /* Pods-ZJYCeShiMainProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09D40420634C2DBF62B52FB455882495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJYCeShiConfirmOrder;
+			target = ABA63F7F30559635E93056D0CDDCA8DC /* ZJYCeShiConfirmOrder */;
+			targetProxy = D5AE8725E0E3D4D9EBB60C825AAB228F /* PBXContainerItemProxy */;
+		};
+		1E73D040777E71E62C305BB156D77DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJYCeShiProtocolManager;
+			target = B6850918B9C3BFF6C26830586844DB2B /* ZJYCeShiProtocolManager */;
+			targetProxy = 5D3AB420D5C538E906D593D1B923C166 /* PBXContainerItemProxy */;
+		};
+		31347CFAE4514CC2ECFD5C70572A0B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJYCeShiProtocolManager;
+			target = B6850918B9C3BFF6C26830586844DB2B /* ZJYCeShiProtocolManager */;
+			targetProxy = 3506B20DE25C7BBF588EE8D22E38BA5D /* PBXContainerItemProxy */;
+		};
+		49AE065CF69B4CF2B8021A45FEAE7DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJYCeShiDetail;
+			target = D357C284EE78527FDA12599FC6FF4A51 /* ZJYCeShiDetail */;
+			targetProxy = FEFAA5BB4E15D0601DF4BE5FFA14378F /* PBXContainerItemProxy */;
+		};
+		6CC8CBFF54AD9458B6736C15810821F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJYCeShiProtocolManager;
+			target = B6850918B9C3BFF6C26830586844DB2B /* ZJYCeShiProtocolManager */;
+			targetProxy = B89B874752B05D973077F531A61254FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CBC48C895F101739376778B6581794C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554AB547B1C2A42E02C5A87CB7D9537A /* Pods-ZJYCeShiMainProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1CE4B5C675ABBA5189C8815DB713FBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D0371862B420C1EEE94358D2FEEEAC /* Pods-ZJYCeShiMainProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47FA9F496D3B8953CDA95773AE87ACDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3236BA6DF72BC9D9C6A34E58DF545DD0 /* ZJYCeShiConfirmOrder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5DF9985AA6077F779E2FB02A75D42983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F94B84816F29DFDA246C1F628E9F2C8 /* ZJYCeShiDetail.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJYCeShiDetail/ZJYCeShiDetail-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F7647282B9559C871C5A58537BE5DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F94B84816F29DFDA246C1F628E9F2C8 /* ZJYCeShiDetail.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJYCeShiDetail/ZJYCeShiDetail-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D0BFF39874DD3A51E1C98125201A8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3236BA6DF72BC9D9C6A34E58DF545DD0 /* ZJYCeShiConfirmOrder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJYCeShiConfirmOrder/ZJYCeShiConfirmOrder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		730180352A7B0F2F54D943B5C0282B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0284B2A898C2297EEDA68717D4193F1 /* ZJYCeShiProtocolManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C9E3FCACA3C23B2BC375ECBF1DDAA9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0284B2A898C2297EEDA68717D4193F1 /* ZJYCeShiProtocolManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED04AAEFD07583F3AA602AD8A4F908E /* Build configuration list for PBXNativeTarget "ZJYCeShiDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7647282B9559C871C5A58537BE5DFB /* Debug */,
+				5DF9985AA6077F779E2FB02A75D42983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4890F78D5AB4B2E501D137E645704363 /* Build configuration list for PBXNativeTarget "Pods-ZJYCeShiMainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE4B5C675ABBA5189C8815DB713FBAB /* Debug */,
+				0CBC48C895F101739376778B6581794C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7F307A33F6E9A9993B7CD80BE0795B /* Build configuration list for PBXNativeTarget "ZJYCeShiProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730180352A7B0F2F54D943B5C0282B70 /* Debug */,
+				C9E3FCACA3C23B2BC375ECBF1DDAA9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C4A5ED5B6FD7941D7FCF742760D628 /* Build configuration list for PBXNativeTarget "ZJYCeShiConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0BFF39874DD3A51E1C98125201A8BC /* Debug */,
+				47FA9F496D3B8953CDA95773AE87ACDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

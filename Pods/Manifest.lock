@@ -1,0 +1,28 @@
+PODS:
+  - ZJYCeShiConfirmOrder (0.0.3):
+    - ZJYCeShiConfirmOrderServiceProtocol
+    - ZJYCeShiProtocolManager
+  - ZJYCeShiConfirmOrderServiceProtocol (0.0.1)
+  - ZJYCeShiDetail (0.0.7):
+    - ZJYCeShiDetailServiceProtocol
+    - ZJYCeShiProtocolManager
+  - ZJYCeShiDetailServiceProtocol (0.0.4)
+  - ZJYCeShiProtocolManager (0.0.4)
+
+DEPENDENCIES:
+  - ZJYCeShiConfirmOrder
+  - ZJYCeShiConfirmOrderServiceProtocol
+  - ZJYCeShiDetail
+  - ZJYCeShiDetailServiceProtocol
+  - ZJYCeShiProtocolManager
+
+SPEC CHECKSUMS:
+  ZJYCeShiConfirmOrder: 6164a5cd97cb4b0e242e390ecdb7e5c58317964a
+  ZJYCeShiConfirmOrderServiceProtocol: 5ad485c0653389bb7df4ee89831f7a921bc38ed4
+  ZJYCeShiDetail: 92337af92634fc239503070fc2a1e530f877e520
+  ZJYCeShiDetailServiceProtocol: 1c98050b584c37112fd3adfdb43ae20d65a1c45a
+  ZJYCeShiProtocolManager: 9b0c1e4643415f01c992cb26e31350e4bd0b308b
+
+PODFILE CHECKSUM: 2016b7f5f68a9c764d916f8802c5d1d9441e995d
+
+COCOAPODS: 1.1.1

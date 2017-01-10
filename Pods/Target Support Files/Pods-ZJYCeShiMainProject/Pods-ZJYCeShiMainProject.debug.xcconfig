@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ZJYCeShiConfirmOrder" "${PODS_ROOT}/Headers/Public/ZJYCeShiConfirmOrderServiceProtocol" "${PODS_ROOT}/Headers/Public/ZJYCeShiDetail" "${PODS_ROOT}/Headers/Public/ZJYCeShiDetailServiceProtocol" "${PODS_ROOT}/Headers/Public/ZJYCeShiProtocolManager"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/ZJYCeShiConfirmOrder" "$PODS_CONFIGURATION_BUILD_DIR/ZJYCeShiDetail" "$PODS_CONFIGURATION_BUILD_DIR/ZJYCeShiProtocolManager"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ZJYCeShiConfirmOrder" -isystem "${PODS_ROOT}/Headers/Public/ZJYCeShiConfirmOrderServiceProtocol" -isystem "${PODS_ROOT}/Headers/Public/ZJYCeShiDetail" -isystem "${PODS_ROOT}/Headers/Public/ZJYCeShiDetailServiceProtocol" -isystem "${PODS_ROOT}/Headers/Public/ZJYCeShiProtocolManager"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ZJYCeShiConfirmOrder" -l"ZJYCeShiDetail" -l"ZJYCeShiProtocolManager" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
