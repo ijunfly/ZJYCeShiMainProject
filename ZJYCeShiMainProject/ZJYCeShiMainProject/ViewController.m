@@ -12,7 +12,8 @@
 #import <ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.h>
 
 
-@interface ViewController ()<ZJYCeShiDetailServiceProtocol>
+@interface ViewController ()
+
 @property (nonatomic, strong) UIButton *goodsButton;
 
 @end
@@ -44,10 +45,10 @@
     id<ZJYCeShiDetailServiceProtocol> goodsServiceProvide = [ZJYCeShiProtocolManager serviceProvideForProtocol:@protocol(ZJYCeShiDetailServiceProtocol)];
     
     UIViewController *goodsDetailVC = [goodsServiceProvide ceshiDetailViewControllerWithGoodsId:@"123" goodsName:@"农夫山泉矿泉水"];
+    
     [self.navigationController pushViewController:goodsDetailVC animated:YES];
     
 }
-
 
 #pragma mark - getters
 - (UIButton *)goodsButton

@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		189614CD1E1DDFF70066A3B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189614CC1E1DDFF70066A3B7 /* main.m */; };
 		189614D01E1DDFF70066A3B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189614CF1E1DDFF70066A3B7 /* AppDelegate.m */; };
-		189614D31E1DDFF70066A3B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189614D21E1DDFF70066A3B7 /* ViewController.m */; };
 		189614D61E1DDFF70066A3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189614D41E1DDFF70066A3B7 /* Main.storyboard */; };
 		189614D81E1DDFF70066A3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189614D71E1DDFF70066A3B7 /* Assets.xcassets */; };
 		189614DB1E1DDFF70066A3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189614D91E1DDFF70066A3B7 /* LaunchScreen.storyboard */; };
+		18A965C91E30E31800A99CBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A965C81E30E31800A99CBA /* ViewController.m */; };
 		CCAF6186D1D90C9298CF5F2F /* libPods-ZJYCeShiMainProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D030BD13427C0B8C25FEBCC6 /* libPods-ZJYCeShiMainProject.a */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +21,12 @@
 		189614CC1E1DDFF70066A3B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		189614CE1E1DDFF70066A3B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		189614CF1E1DDFF70066A3B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		189614D11E1DDFF70066A3B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		189614D21E1DDFF70066A3B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		189614D51E1DDFF70066A3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189614D71E1DDFF70066A3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189614DA1E1DDFF70066A3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189614DC1E1DDFF70066A3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A965C71E30E31800A99CBA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A965C81E30E31800A99CBA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7F8EB7042EE55C35A120745F /* Pods-ZJYCeShiMainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJYCeShiMainProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJYCeShiMainProject/Pods-ZJYCeShiMainProject.release.xcconfig"; sourceTree = "<group>"; };
 		CD00426326A29994A3D2D2E3 /* Pods-ZJYCeShiMainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJYCeShiMainProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJYCeShiMainProject/Pods-ZJYCeShiMainProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D030BD13427C0B8C25FEBCC6 /* libPods-ZJYCeShiMainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJYCeShiMainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,8 +67,7 @@
 			children = (
 				189614CE1E1DDFF70066A3B7 /* AppDelegate.h */,
 				189614CF1E1DDFF70066A3B7 /* AppDelegate.m */,
-				189614D11E1DDFF70066A3B7 /* ViewController.h */,
-				189614D21E1DDFF70066A3B7 /* ViewController.m */,
+				18A965C61E30E31800A99CBA /* ZJYCeShiMainProject */,
 				189614D41E1DDFF70066A3B7 /* Main.storyboard */,
 				189614D71E1DDFF70066A3B7 /* Assets.xcassets */,
 				189614D91E1DDFF70066A3B7 /* LaunchScreen.storyboard */,
@@ -84,6 +83,15 @@
 				189614CC1E1DDFF70066A3B7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A965C61E30E31800A99CBA /* ZJYCeShiMainProject */ = {
+			isa = PBXGroup;
+			children = (
+				18A965C71E30E31800A99CBA /* ViewController.h */,
+				18A965C81E30E31800A99CBA /* ViewController.m */,
+			);
+			path = ZJYCeShiMainProject;
 			sourceTree = "<group>";
 		};
 		303A9907B9EFC9776AFE5793 /* Frameworks */ = {
@@ -225,7 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189614D31E1DDFF70066A3B7 /* ViewController.m in Sources */,
+				18A965C91E30E31800A99CBA /* ViewController.m in Sources */,
 				189614D01E1DDFF70066A3B7 /* AppDelegate.m in Sources */,
 				189614CD1E1DDFF70066A3B7 /* main.m in Sources */,
 			);
@@ -384,6 +392,7 @@
 				189614E11E1DDFF70066A3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

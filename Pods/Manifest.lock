@@ -3,7 +3,8 @@ PODS:
     - ZJYCeShiConfirmOrderServiceProtocol
     - ZJYCeShiProtocolManager
   - ZJYCeShiConfirmOrderServiceProtocol (0.0.1)
-  - ZJYCeShiDetail (0.0.7):
+  - ZJYCeShiDetail (0.0.9):
+    - ZJYCeShiConfirmOrderServiceProtocol
     - ZJYCeShiDetailServiceProtocol
     - ZJYCeShiProtocolManager
   - ZJYCeShiDetailServiceProtocol (0.0.4)
@@ -19,7 +20,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   ZJYCeShiConfirmOrder: 6164a5cd97cb4b0e242e390ecdb7e5c58317964a
   ZJYCeShiConfirmOrderServiceProtocol: 5ad485c0653389bb7df4ee89831f7a921bc38ed4
-  ZJYCeShiDetail: 92337af92634fc239503070fc2a1e530f877e520
+  ZJYCeShiDetail: f47f7cd5d14c8f6721f76b25318c2c9c4de383e6
   ZJYCeShiDetailServiceProtocol: 1c98050b584c37112fd3adfdb43ae20d65a1c45a
   ZJYCeShiProtocolManager: 9b0c1e4643415f01c992cb26e31350e4bd0b308b
 
